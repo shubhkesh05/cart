@@ -15,7 +15,15 @@ connectDB();
 connectCloudinary();
 // middlewares
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+  origin: [
+    "https://cart-q5kr.vercel.app",
+    "https://cart-roan.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}))
+
 
 // api endpoints
 app.use('/api/user', userRouter);
