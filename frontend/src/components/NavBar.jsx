@@ -20,27 +20,27 @@ const NavBar = () => {
       {/* Navigation Links */}
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
         <li>
-          <NavLink to="/" className="flex flex-col items-center gap-1">
+          <NavLink to="/" className="group flex flex-col items-center gap-1">
             <p>HOME</p>
-            <hr className="w-2/4 border-none h-1.5 bg-gray-700 group-hover:block hidden" />
+            <hr className="hidden w-2/4 border-none h-1.5 bg-gray-700 group-hover:block" />
           </NavLink>
         </li>
         <li>
-          <NavLink to="/collection" className="flex flex-col items-center gap-1">
+          <NavLink to="/collection" className="group flex flex-col items-center gap-1">
             <p>COLLECTION</p>
-            <hr className="w-2/4 border-none h-1.5 bg-gray-700 group-hover:block hidden" />
+            <hr className="hidden w-2/4 border-none h-1.5 bg-gray-700 group-hover:block" />
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" className="flex flex-col items-center gap-1">
+          <NavLink to="/about" className="group flex flex-col items-center gap-1">
             <p>ABOUT</p>
-            <hr className="w-2/4 border-none h-1.5 bg-gray-700 group-hover:block hidden" />
+            <hr className="hidden w-2/4 border-none h-1.5 bg-gray-700 group-hover:block" />
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" className="flex flex-col items-center gap-1">
+          <NavLink to="/contact" className="group flex flex-col items-center gap-1">
             <p>CONTACT</p>
-            <hr className="w-2/4 border-none h-1.5 bg-gray-700 group-hover:block hidden" />
+            <hr className="hidden w-2/4 border-none h-1.5 bg-gray-700 group-hover:block" />
           </NavLink>
         </li>
       </ul>
