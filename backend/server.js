@@ -18,7 +18,7 @@ app.use(express.json())
 app.use(cors({
   origin: [
     "https://cart-q5kr.vercel.app",
-    "https://cart-roan.vercel.app"
+    "https://cart-6288.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
